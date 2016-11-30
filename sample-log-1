@@ -1,0 +1,73 @@
+a3a8af18-afc1-4552-900f-492d73c13bce [2016-10-27 00:00:00]  INFO - [0-P] OrdSmsService.setOrdSmsSnd(List<OrdSms> ordSmsList)
+
+a3a8af18-afc1-4552-900f-492d73c13bce [2016-10-27 00:00:00]  INFO - [0-P]
+ SMS 발송 요청 : 고객번호 : 8079847
+ SMS 발송 요청 : 주문번호 : 794712923
+ SMS 발송 요청 : 발송비용코드 : 237
+
+
+a3a8af18-afc1-4552-900f-492d73c13bce [2016-10-27 00:00:00]  INFO - [0-P-794712923]
+794712923 getSmsSndChk(long ordNo, String sndCostCd)
+794712923 isSmsSend criteria Param ----------- 
+794712923 ordNo:::>>794712923
+794712923 sndCostShrPlcCd:::>>237
+794712923 tnsGbnCd:::>>10
+794712923 findSmsCheck:::>>0
+794712923 getSmsSndChk(long ordNo, String sndCostCd) END
+
+
+a3a8af18-afc1-4552-900f-492d73c13bce [2016-10-27 00:00:00]  INFO - [0-P] SMS 발송 요청 : ui.ord.orderfinish.017 : sms 발송등록 ---------- 시작17
+ SMS 발송 요청 : 자산사용 : ui.ord.orderfinish.032 : [GS SHOP] 고객님의 적립금/포인트/상품권이 사용 되었습니다.
+ SMS 발송 요청 : SMS 발송 유형 코드 : asset
+ SMS 발송 요청 : SMS발송 처리 결과 ::::>> true
+
+
+a3a8af18-afc1-4552-900f-492d73c13bce [2016-10-27 00:00:00]  INFO - [0-P] OrdSmsService.setOrdSmsSnd(List<OrdSms> ordSmsList) END
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemService.getOrdItemAndPrcAndDlvCost(GsOrdM gsOrdM) 
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemService.getOrdItemDExtList(GsOrdM gsOrdM) 
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] getOrdItemDExtList(GsOrdM gsOrdM)
+ 기본채널 정보 : P
+ 현재채널 정보 : P
+ ecOrdNo  정보 : 279384479
+ ecCustNo 정보 : 2009831436
+
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemService.getOrdItemDExtList(GsOrdM gsOrdM) END gsOrdItemDExtList.size() : 1
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemService.setPrdAttrMapping(GsOrdM gsOrdM, List<GsOrdItemDExt> gsOrdItemDExtList)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] productAttributeWebServiceClient.getPrdAttrPrdInfos(criteria) 호출 전 [ prdCdArr : 1
+ productAttributeWebServiceClient.getPrdAttrPrdInfos(criteria) 호출 전 [ ecAttrPrdCd : 1
+ productAttributeWebServiceClient.getPrdAttrPrdInfos(criteria) 호출 전 [ chanlCd : P
+
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479]gsOrdItemDExt.getOperMdId : 80106
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemService.setPrdAttrMapping(GsOrdM gsOrdM, List<GsOrdItemDExt> gsOrdItemDExtList) END
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.getGsOrdItemAndPrcAndDlvCostList(GsOrdM gsOrdM, List<GsOrdItemDExt> gsOrdItemDExtList)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.setGsOrdItemDExtPrcAndDlvCost(GsOrdM gsOrdM, List<GsOrdItemDExt> gsOrdItemDExtList)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.setGsOrdItemDExtPrc(GsOrdM gsOrdM, List<GsOrdItemDExt> gsOrdItemDExtList)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.getImmAccmDcAmt(GsOrdM gsOrdM, GsOrdItemDExt gsOrdItemDExt)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.getImmAccmDcAmt(GsOrdM gsOrdM, GsOrdItemDExt gsOrdItemDExt) END
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.getMaxAccmAmt(GsOrdM gsOrdM, GsOrdItemDExt gsOrdItemDExt)
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] GsOrdItemDcService.getMaxAccmAmt(GsOrdM gsOrdM, GsOrdItemDExt gsOrdItemDExt) END
+
+a547a76e-6c15-49c5-acfa-22268b1f8a40 [2016-10-27 00:00:01]  INFO - [0-P-279384479] 주문아이템번호       [ec_ord_item_no : 391173338
+ 계산된단축할인률     [empAddDcRt : 0
+ 사내임직원단축할인률 [getShortDcRt : 0
+ 쇼핑지원금 금액      [getShop_support_amt : 0
+ 임직원할인후 상품단가[getPrd_unit_prc_after_insale : 24500
+ 일시불할인금액       [setSgpay_dc_amt : 24500
+ 일시불할인후 상품단가[getPrd_unit_prc_after_sgpay : 24500
+ 즉시적립할인금액     [getImm_accm_dc_amt : 0
+ 상품무이자개월수     [getPrd_no_int_insm_mm : 0
